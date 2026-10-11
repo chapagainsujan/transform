@@ -1,0 +1,25 @@
+Package: transform
+Type: Package
+Title: Automatic Normalizing Transformations
+Version: 0.1.0
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: Tests a numeric vector for normality and, if it is non-normal,
+    evaluates log, square-root, Box-Cox, Yeo-Johnson and rank-based inverse
+    normal (Blom) transformations, selects the one that is closest to
+    normality, and returns an object that can be inverted back to the
+    original scale.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: R (>= 3.5.0)
+Imports:
+    MASS,
+    stats,
+    graphics
+Suggests:
+    testthat (>= 3.0.0),
+    car,
+    ggplot2
+Config/testthat/edition: 3
