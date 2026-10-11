@@ -8,7 +8,7 @@ and lets you invert it back to the original scale.
 
 ```r
 # install.packages("remotes")
-remotes::install_github("YOUR_GITHUB_USERNAME/transform")
+remotes::install_github("chapagainsujan/transform")
 ```
 
 ## Usage
